@@ -1,0 +1,155 @@
+/* Universal Selector */
+* {
+    margin:0;
+    padding:0;
+  }
+  
+  /* Header */
+  
+  .fixedheader {
+    text-align: center;
+    display: inline;
+    font-weight: bolder;
+    
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 2em;
+    
+}
+  h2{
+    text-decoration: none;
+    color: #8f9715 ;
+  }
+  #work {
+    max-width: 100%;
+  }
+  
+  main {
+    padding: 60px 0;
+  }
+  
+  li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #FDF8F5;
+    width:100%
+  }
+  
+  header {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    border: 10px solid #8f9715;
+    justify-content: space-evenly;
+  }
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  
+  body {
+    position: relative;
+    font-family: monospace;
+    font-size: 1.25rem;
+    background-color: rgb(77, 28, 16);
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  figure {
+    margin-bottom: 40px;
+    max-width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /*profile picture and caption*/
+  
+  .avatar {
+    max-width: 65%;
+    padding:3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .avatar img {
+    max-width: 30%;
+  }
+  
+  .caption {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 65%;
+  }
+  
+   /*work elements and titles*/
+  
+  img {
+    margin: 0.89em auto;
+    border-radius: .5em;
+    flex-wrap: wrap;
+  }
+  
+  
+  .largercard {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .largercard img {
+    width: 80%;
+  }
+  
+  .smallcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1em;
+  }
+  
+  .smallcards img{
+    max-width:40%
+  }
+  
+   /*footer element*/
+  
+  footer {
+    position: center;
+    margin-top: 0;
+    border-top: 10px solid #8f9715;
+    color:  #ffffff;    
+  }
+  
+  #contactmeheader {
+    font-size: 1.5rem;
+    color: white;
+    padding: 1.5rem;
+  }
+  .contactme {
+    border: 3px solid #8f9715;
+    text-align:center;
+    margin-right:5rem;
+    margin-left: 5rem;
+    padding: 1rem;
+  }
+  @media screen and (max-width:500px) {
+    nav ul {
+      font-size: 0.75rem;
+    }
+  } 
